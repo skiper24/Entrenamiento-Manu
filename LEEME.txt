@@ -1,0 +1,27 @@
+MI ENTRENAMIENTO · VERSIÓN 2
+
+APLICACIÓN PARA IPHONE (PWA) · 4 DÍAS · DATOS LOCALES
+
+Novedades
+- Confirmar cada ejercicio para cerrarlo, modificarlo después si hace falta.
+- Cronómetro de descanso automático, sin alarma ni vibración, incluso al cambiar de pantalla.
+- Récord histórico y último registro actualizados según las sesiones guardadas.
+- Rutina de 4 días definitiva, con hombros completos y sin abdominales.
+- Borrador guardado al escribir; progreso, historial, exportación e importación.
+- Migración automática de sesiones anteriores con la clave manuel_gym_v1.
+
+PARA ACTUALIZAR EL SITIO YA INSTALADO
+1) ANTES de subir nada: abrí la aplicación vieja > Ajustes > Exportar JSON. Guardá ese archivo en Archivos/iCloud Drive.
+2) Descomprimí este ZIP en Archivos del iPhone.
+3) Abrí tu repositorio GitHub (skiper24/Entrenamiento-Manu), rama main.
+4) Add file > Upload files. Seleccioná los archivos SUELTOS del ZIP, no la carpeta ni el ZIP.
+5) Subí index.html, app.css, app.js, sw.js, manifest.webmanifest, los dos PNG y LEEME.txt en la raíz del repositorio. Aceptá reemplazar los que tienen igual nombre y confirmá el commit.
+6) Como GitHub Pages ya está activo, el mismo enlace y el mismo ícono de tu iPhone se actualizan. No desinstales la aplicación ni borres los datos locales.
+7) Abrí la app cuando el deploy termine. Si sigue mostrando v1, cerrala y volvé a abrirla; la nueva versión tiene una etiqueta «v2» arriba.
+
+IMPORTANTE
+- NO borres las claves del navegador ni desinstales la app para "limpiar" caché.
+- Los datos se guardan en el dispositivo, no en GitHub. Los códigos del repositorio pueden ser públicos, pero NO incluyen tus entrenamientos.
+- Al importar una copia se REEMPLAZAN los datos actuales; exportá primero.
+- La versión 2 escribe en manuel_gym_v2 y conserva manuel_gym_v1 sin modificar.
+- Si usás la app con distinta partición de datos (por ejemplo, Safari frente a la app de inicio), exportá e importá el respaldo según corresponda.

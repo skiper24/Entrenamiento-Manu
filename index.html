@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=yes">
+  <meta name="theme-color" content="#0b101a">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Entrenamiento">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="icon" type="image/png" href="./icon-192.png">
+  <link rel="stylesheet" href="./app.css">
+  <title>Mi Entrenamiento · Manu</title>
+</head>
+<body>
+  <header class="site-header"><div class="brand"><span class="brand-icon" aria-hidden="true">↗</span><div><div class="eyebrow">FUERZA · HIPERTROFIA</div><h1>Mi entrenamiento<span class="brand-dot">.</span></h1></div></div><span class="version-badge">v2</span></header>
+  <main id="app" aria-live="polite"></main>
+  <aside id="restdock" class="restdock hidden" aria-live="off"></aside>
+  <nav class="bottom-nav" aria-label="Navegación principal">
+    <button type="button" class="navbtn selected" data-tab="train"><span class="navico" aria-hidden="true">◉</span><span>Entrenar</span></button>
+    <button type="button" class="navbtn" data-tab="history"><span class="navico" aria-hidden="true">▤</span><span>Historial</span></button>
+    <button type="button" class="navbtn" data-tab="progress"><span class="navico" aria-hidden="true">⌁</span><span>Progreso</span></button>
+    <button type="button" class="navbtn" data-tab="settings"><span class="navico" aria-hidden="true">⚙</span><span>Ajustes</span></button>
+  </nav>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>
