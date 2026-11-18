@@ -1,0 +1,8 @@
+PUBLICACIÓN EN GITHUB PAGES
+1. Crear un repositorio público en github.com.
+2. Subir los cinco archivos de esta carpeta a la raíz del repositorio (no el ZIP).
+3. Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
+4. Abrir https://TU-USUARIO.github.io/NOMBRE-REPOSITORIO/ en Safari.
+5. Compartir > Agregar a pantalla de inicio.
+
+Los datos se guardan solo en el navegador o app instalada. Exportá una copia JSON periódicamente; borrar datos de Safari o reinstalar la app puede borrar registros.
